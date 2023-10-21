@@ -8,6 +8,6 @@ RUN git clone https://github.com/redaiq90/MegaDL-Bot
 RUN cd MegaDL-Bot
 WORKDIR /MegaDL-Bot
 
-RUN pip3 install -U -r requirements.txt
+RUN pip install -U -r requirements.txt
 
-CMD python3 main.py
+CMD python main.py
